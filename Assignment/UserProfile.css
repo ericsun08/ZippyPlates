@@ -1,0 +1,134 @@
+﻿body {
+    overflow:hidden;
+    margin:auto;
+}
+
+*
+{
+    text-decoration:none;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    border-bottom: ridge;
+    border-width: thin;
+    overflow: hidden;
+    position: sticky;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+}
+
+
+label.logo {
+    color: #293250;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 70px;
+    margin-left: 0px;
+}
+
+label.logo a {
+    color: #293250;
+}
+
+.maincontainer {
+    height: 100vh;
+    width:1200px;
+    margin: auto;
+    
+}
+
+.container {
+    min-width: 400px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    min-height: 400px;
+    display:inline-block;
+    float:left;
+    margin:50px;
+}
+
+.form {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+}
+
+h1 {
+    font-weight: bold;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#first_name, #last_name, #email, #gender, #mobile_number, #homeaddress {
+    background: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    margin-left: -15px;
+    font-weight:bold;
+}
+
+#first_name, #last_name {
+    text-transform: capitalize;
+}
+
+#first_name:focus, #last_name:focus, #gender:focus, #mobile_number:focus, #homeaddress:focus {
+    outline: none;
+    border: 1px ridge #6DD47E;
+}
+
+
+
+#Button1{
+    border-radius: 20px;
+    border: 1px solid #6DD47E;
+    background: #6DD47E;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 20px;
+    margin:20px auto;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    width:140px;
+}
+
+#Button1:hover{
+    cursor: pointer;
+}
+
+#Button1:active {
+    transform: scale(0.95);
+}
+
+#Button1:focus {
+    outline: none;
+}
+
+.password {
+    background: #f6f5f7;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}

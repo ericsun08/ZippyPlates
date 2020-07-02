@@ -1,0 +1,281 @@
+﻿body {
+    margin: auto;
+}
+
+#TextBox1, #TextBox2, #TextBox3 {
+    background: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px auto;
+    width: 700px;
+}
+
+.lbl
+{
+    margin-left:90px;
+}
+
+#TextBox1:focus, #TextBox2:focus, #TextBox3:focus {
+    outline: none;
+    border: 1px ridge #6DD47E;
+}
+
+
+.content1{
+    text-align:center;
+}
+
+
+
+label.logo {
+    color: #293250;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 70px;
+    margin-left: 0px;
+}
+
+    label.logo a {
+        color: #293250;
+    }
+
+.footer .wrapper .logo {
+    color: #ffffff;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    font-size: 35px;
+    float: left;
+    margin-top: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 320px;
+    background-color: #293250;
+    overflow: hidden;
+}
+
+.contactus {
+    width: 800px;
+    height: 500px;
+    float:left;
+}
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .wrapper {
+    overflow: hidden;
+}
+
+.footer .wrapper .logo {
+    color: #ffffff;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    font-size: 35px;
+    float: left;
+    margin-top: 20px;
+}
+
+.footer .wrapper p {
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.footer .wrapper .fcategory {
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 2.5;
+}
+
+.footer .wrapper .item4 {
+    width: 150px;
+    min-height: 150px;
+    float: left;
+    margin-left: 140px;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+.footer .wrapper .item5 {
+    width: 150px;
+    min-height: 150px;
+    overflow: hidden;
+    float: left;
+    margin-top: 40px;
+    margin-right: 80px;
+}
+
+.footer .wrapper .item6 {
+    min-width: 150px;
+    min-height: 150px;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-right: 80px;
+    float: left;
+}
+
+.footer .wrapper .item7 {
+    min-width: 150px;
+    min-height: 150px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+
+
+.footer .wrapper .item7 .fab {
+    color: #FFFFFF;
+    font-size: 40px;
+    margin: 10px;
+}
+
+
+
+
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    border-bottom: ridge;
+    border-width: thin;
+    overflow: visible;
+    position: sticky;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+}
+
+
+
+label.logo {
+    color: #293250;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 70px;
+    margin-left: 0px;
+}
+
+    label.logo a {
+        color: #293250;
+    }
+
+
+#Button1 {
+    border-radius: 20px;
+    border: 1px solid #6DD47E;
+    background: #6DD47E;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    width: 160px;
+    margin-left: 380px;
+    position:relative;
+    bottom:5px;
+
+}
+
+    #Button1:active {
+        transform: scale(0.95);
+    }
+
+    #Button1:focus {
+        outline: none;
+    }
+
+
+
+#Label2 {
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #EBEBEB;
+}
+
+
+a {
+color: #293250;
+}
+
+
+
+a:hover {
+    color: #6DD47E;
+}
+
+
+
+
+          
+
+.item4 a, .item5 a, .item6 a {
+    color: #FFFFFF;
+}
+
+    .item4 a:hover, .item5 a:hover, .item6 a:hover {
+        color: #6DD47E;
+    }
+
+.copyright {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    border-top: ridge;
+    border-width: thin;
+    overflow: hidden;
+    line-height: 0.6;
+    float: left;
+    margin-top: 40px;
+}
+
+.copyright p {
+margin-top: 10px;
+font-size: 10px;
+}
+
+.copyright p a {
+    color: #FFFFFF;
+}
+
+
+
+.form {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    height: 600px;
+}
+
+.form .logo {
+    text-align: center;
+}
+
+.feedback
+{
+    width:100%;
+    height:700px;
+}
+
+ul
+{
+    list-style:none;
+}

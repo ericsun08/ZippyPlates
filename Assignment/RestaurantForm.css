@@ -1,0 +1,189 @@
+﻿body {
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    border-bottom: ridge;
+    border-width: thin;
+    position: sticky;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+}
+
+label.logo {
+    color: #293250;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 70px;
+    margin-left: 0px;
+}
+
+.logo a {
+    color: #293250;
+    cursor: pointer;
+}
+
+.caption2 
+{
+    color: #293250;
+    font-weight: bold;
+    font-size: 20px;
+    text-align:center;
+    width:300px;
+    height:100px;
+    margin-left:400px;
+}
+
+.text {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.caption {
+    color: #6DD47E;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    position: absolute;
+    margin-left: 350px;
+    border: solid;
+    border-color: white;
+    border-radius: 50px;
+    border-width: thin;
+    height: 80px;
+    width: 500px;
+    margin-top: 100px;
+    padding: 15px;
+    border-color:#6DD47E;
+}
+
+.walkthrough {
+    height: 400px;
+    width: 100%;
+    overflow:hidden;
+    border-top:ridge;
+    border-bottom:ridge;
+    border-width:1px;
+    text-align:center;
+}
+
+.walkthrough h1{
+    
+    text-align: center;
+    text-transform:uppercase;
+    margin-top:20px;
+}
+
+.fas {
+    font-size: 100px;
+    color: #293250;
+}
+
+.walkthrough .caption1 {
+    display: inline-block;
+    height: 300px;
+    width: 220px;
+    margin-top: 80px;
+    margin: 30px;
+    text-align: center;
+    overflow: hidden;
+    margin-left:40px;
+    
+}
+
+.walkthrough .caption1 p
+{
+    font-size:20px;
+    text-align:left;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.form {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.form .logo
+{
+    text-align:center;
+}
+
+#restaurant_name, #city, #restaurant_address, #category, #first_name, #last_name, #mobile_phone, #email_address, #img_upload, #otime, #ctime, #password, #confirm{
+    background: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 700px;
+    margin-left:200px;
+}
+
+#restaurant_name, #restaurant_address, #first_name, #last_name {
+    text-transform: capitalize;
+}
+
+    #restaurant_name:focus, #city:focus, #restaurant_address:focus, #category:focus, #first_name:focus, #last_name:focus, #mobile_phone:focus, #email_address:focus, #img_upload:focus, #otime:focus, #ctime:focus, #password:focus, #confirm:focus {
+        outline: none;
+        border: 1px ridge #6DD47E;
+    }
+
+#RF1, #RF2, #RF3, #RF4, #RF5, #RF6, #RF7, #RF8, #RF10, #RF11, #REV1, #CV1, #CV2
+{
+    margin-left:200px;
+}
+
+#L1, #L2, #L3, #L4, #L5, #L6, #L7, #L8, #L9, #L10, #L11, #L12, #L13 {
+
+    margin-left: 200px;
+}
+
+#Button1 {
+    border-radius: 20px;
+    border: 1px solid #6DD47E;
+    background: #6DD47E;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 480px;
+}
+
+#Button1:active {
+    transform: scale(0.95);
+}
+
+#Button1:focus {
+    outline: none;
+}

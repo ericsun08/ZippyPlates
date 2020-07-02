@@ -1,0 +1,143 @@
+﻿body {
+    margin: auto;
+    overflow:hidden;
+}
+
+* {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    border-bottom: ridge;
+    border-width: thin;
+    overflow: hidden;
+    position: sticky;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+}
+
+
+a:link.logo {
+    color: #293250;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 70px;
+    margin-left: 0px;
+}
+
+.maincontainer {
+    height: 95vh;
+    display: flex;
+    background-image: url('img/undraw_eating_together_tjhx.png');
+    background-size:auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 0;
+}
+
+.container {
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: #fff;
+    min-height: 400px;
+    overflow:hidden;
+    position:absolute;
+}
+
+.form {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+   
+}
+
+
+h1 {
+    font-weight: bold;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+p
+{
+    color:grey;
+    text-align:center;
+}
+
+a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+#TextBox1, #TextBox2 {
+    background: #f6f5f7;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    margin-left: -15px;
+}
+
+#RF1, #RF2
+{
+    margin-left:-10px;
+    font-size:12px;
+}
+
+#TextBox1:focus, #TextBox2:focus {
+    outline: none;
+    border: 1px ridge #6DD47E;
+}
+
+#Button1 {
+    border-radius: 20px;
+    border: 1px solid #6DD47E;
+    background: #6DD47E;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    width: 100px;
+    margin-bottom: 20px;
+    margin-left: 95px;
+}
+
+#Button1:active {
+    transform: scale(0.95);
+}
+
+#Button1:focus {
+    outline: none;
+}
+
+.signup {
+    background: #f6f5f7;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+

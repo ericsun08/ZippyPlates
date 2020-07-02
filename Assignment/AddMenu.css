@@ -1,0 +1,187 @@
+﻿body {
+    margin: auto;
+}
+
+a {
+    color: #293250;
+}
+
+    a:hover {
+        color: #6DD47E;
+    }
+
+* {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    border-bottom: ridge;
+    border-width: thin;
+    position: sticky;
+    overflow: visible;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+}
+
+label.logo {
+    color: #293250;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 70px;
+    margin-left: 0px;
+}
+
+.logo a {
+    color: #293250;
+    cursor: pointer;
+}
+
+.name {
+    position: relative;
+    display: inline-block;
+}
+
+.sub-div {
+    display: none;
+    overflow: visible;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    z-index: 1;
+    margin-right: 30px;
+    left: 885px;
+    top: 28px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+
+.sub-div #LinkButton1, #LinkButton2 {
+display: block;
+padding: 12px 16px;
+text-decoration: none;
+}
+
+.sub-div #LinkButton1:hover, #LinkButton2:hover {
+    background-color: #6DD47E;
+    color: black;
+}
+
+.sub-div #LinkButton1:hover {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.sub-div #LinkButton2:hover {
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+.name:hover {
+    cursor: pointer;
+}
+
+.name:hover .sub-div {
+    display: block;
+}
+
+#first_name {
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #f6f5f7;
+    right: 400px;
+    top: 20px;
+    position: fixed;
+}
+
+.maincontainer {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 0;
+}
+
+.container {
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: #fff;
+    min-height: 400px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.form {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+}
+
+
+h1 {
+    font-weight: bold;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#menu_name, #menu_price, #menu_image {
+    background: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    margin-left: -15px;
+    font-weight: bold;
+}
+
+#menu_name:focus, #menu_price:focus, #menu_image:focus {
+    outline: none;
+    border: 1px ridge #6DD47E;
+}
+
+#R1, #R2, #R3, #CV1 {
+    font-size: 12px;
+    margin-left: -15px;
+}
+
+#Button1 {
+    border-radius: 20px;
+    border: 1px solid #6DD47E;
+    background: #6DD47E;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 20px;
+    margin: 20px auto;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    width: 140px;
+}
+
+#Button1:hover {
+    cursor: pointer;
+}
+
+#Button1:active {
+    transform: scale(0.95);
+}
+
+#Button1:focus {
+    outline: none;
+}

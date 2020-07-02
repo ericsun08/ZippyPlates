@@ -1,0 +1,227 @@
+﻿body {
+    margin:auto;
+}
+
+* {
+    text-decoration: none;
+}
+
+a {
+    color: #293250;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.login {
+    position: relative;
+    display: inline-block;
+    right:-990px;
+    top:0px;
+}
+
+.login:hover .sub-login {
+    display: block;
+}
+
+.sub-login {
+    display: none;
+    overflow: visible;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    z-index: 1;
+    margin-right: 30px;
+    left: -90px;
+    top: 28px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+
+.sub-login #LinkButton1, #LinkButton2 {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.sub-login #LinkButton1:hover, #LinkButton2:hover {
+    background-color: #6DD47E;
+    color: black;
+}
+
+.sub-login #LinkButton1:hover {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.sub-login #LinkButton2:hover {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn2 {
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #f6f5f7;
+    margin-left: 0;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    border-bottom: ridge;
+    border-width: thin;
+    position: sticky;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    overflow:visible;
+}
+
+label.logo {
+    color: #293250;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 70px;
+    margin-left: 0px;
+}
+
+.logo a {
+    color: #293250;
+    cursor: pointer;
+}
+
+.restaurant
+{
+    width:100%;
+    height:240px;
+    border-bottom:ridge;
+    border-width:thin;
+    overflow:hidden;
+}
+
+.details
+{
+    overflow:visible;
+    margin:20px;
+    margin-left:30px;
+}
+
+#restaurant_name, #category, #strip
+{
+    font-weight:bold;
+    font-size:30px;
+}
+#menu_name, #menu_price
+{
+    font-weight:bold;
+    font-size: 25px;
+}
+.menunamedesign{
+    font-weight:bold;
+}
+#city, #restaurant_address {
+    font-size: 20px;
+}
+
+.menu
+{
+    min-height:1000px;
+}
+
+.footer {
+    width: 100%;
+    height: 320px;
+    background-color: #293250;
+    overflow: hidden;
+}
+
+.footer .wrapper {
+overflow: hidden;
+}
+
+.footer .wrapper .logo {
+color: #ffffff;
+font-family: 'Righteous', cursive;
+font-weight: bold;
+font-size: 35px;
+float: left;
+margin-top: 20px;
+}
+
+.footer .wrapper p {
+font-size: 15px;
+color: #FFFFFF;
+font-weight: bold;
+}
+
+.footer .wrapper .fcategory {
+color: #FFFFFF;
+letter-spacing: 1px;
+font-size: 15px;
+line-height: 2.5;
+}
+
+.footer .wrapper .item6 {
+min-width: 150px;
+min-height: 150px;
+overflow: hidden;
+margin-top: 40px;
+margin-left:80px;
+float: left;
+}
+
+.footer .wrapper .item7 {
+min-width: 150px;
+min-height: 150px;
+overflow: hidden;
+margin-top: 40px;
+float:right;
+}
+
+ul
+{
+    list-style:none;
+}
+
+
+
+.footer .wrapper .item7 .fab {
+    color: #FFFFFF;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.item4 a, .item5 a, .item6 a {
+    color: #FFFFFF;
+}
+
+.item4 a:hover, .item5 a:hover, .item6 a:hover {
+    color: #6DD47E;
+}
+
+.copyright {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    border-top: ridge;
+    border-width: thin;
+    overflow: hidden;
+    line-height: 0.6;
+    float: left;
+    margin-top: 40px;
+}
+
+.copyright p {
+margin-top: 10px;
+font-size: 10px;
+}
+
+.copyright p a {
+    color: #FFFFFF;
+}

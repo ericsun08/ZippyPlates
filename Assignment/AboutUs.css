@@ -1,0 +1,111 @@
+﻿body {
+    margin: auto;
+}
+
+* {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    border-bottom: ridge;
+    border-width: thin;
+    position: sticky;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+}
+
+label.logo {
+    color: #293250;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 70px;
+    margin-left: 0px;
+}
+
+.logo a {
+    color: #293250;
+    cursor: pointer;
+}
+
+.title
+{
+    height:350px;
+    text-align:center;
+    border-bottom:ridge;
+    border-width:thin;
+}
+
+.title h1 {
+    font-family: 'Righteous', cursive;
+}
+
+.team
+{
+    height:900px;
+}
+
+    .team h2 {
+        font-family: 'Righteous', cursive;
+    }
+
+    .team h3 {
+        text-align: center;
+        font-family: 'Righteous', cursive;
+    }
+
+.about {
+    height: 300px;
+    text-align: match-parent;
+    font-family: 'Righteous', cursive;
+}
+
+.about h2
+{
+    font-size:medium;
+}
+.about h3
+{
+    text-align: center;
+}
+
+.subcontainer {
+    float: left;
+    width: 250px;
+    height: 345px;
+    margin-bottom: 16px;
+    border-radius:5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin:40px;
+    margin-left:90px;
+    overflow:hidden;
+}
+
+.subcontainer h2, p
+{
+    padding: 0 8px;
+}
+
+.role {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #66D47E;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    border-radius:5px;
+}
